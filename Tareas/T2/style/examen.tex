@@ -1,0 +1,43 @@
+%-------------------------------------------------------------------------------
+%	PAQUETES Y OTRAS CONFIGURACIONES
+%-------------------------------------------------------------------------------
+
+\documentclass[addpoints, 11pt, letterpaper]{exam} % Tamaño de papel y letra para el documento
+
+\usepackage[utf8]{inputenc} % Los caracteres acentuados se pueden escribir normalmente en el código
+\usepackage[T1]{fontenc} % Configuración de fuente de salida
+\usepackage{fourier} % Se usa una fuente diferente al default
+\usepackage[spanish,es-noquoting]{babel} % Se configura como documento en español
+\usepackage{amsmath,amsfonts,amsthm} % Paquetes para escribir formulas matemáticas
+\usepackage{wasysym}
+\usepackage{graphicx} % Paquetes para incluir imágenes
+\usepackage{multirow} % Paquete para unir varias filas en tablas
+
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage{tkz-euclide}
+
+\usepackage{sectsty} % Paquete para configuración de secciones
+\allsectionsfont{\centering \normalfont \scshape} % Los títulos de las secciones son centrados, con la misma fuente y pequeñas mayúsculas
+
+\pagestyle{foot}
+\extraheadheight{-1cm}
+
+\setlength\parindent{0pt} % Quita la indentación de los párrafos
+
+\cfoot{}
+\firstpagefooter{}{}{}
+\runningfootrule
+
+\extrawidth{-1cm}
+\marginpointname{ \points}
+
+\pointpoints{ punto}{ puntos}
+\pointsinrightmargin
+\usehorizontalhalf
+
+\vqword{Pregunta}
+\vpgword{Página}
+\vpword{Puntos}
+\vsword{Obtenidos}
